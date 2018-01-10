@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>这是一个注册页面</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+    <h1 style="color:red">开始寻宝</h1>
+    <form>
+        <input type="text" placeholder="用户名" name="username"  required pattern="^.{2,20}[\u4E00-\u9FA5A-Za-z0-9]+$"><span style="display:none"></span>
+        <br>
+        <input type="password" placeholder="密码" name="password"  required pattern="^\d{6,8}$">
+        <br>
+        <input type="password" placeholder="请确认密码" ><span></span><br>
+        <input type="submit" value="提交"><br>
+        <button onclick="location.href='index.html'">前往登录</button>
+    </form>
+
+    <script src="lib/jquery.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+
+</html>

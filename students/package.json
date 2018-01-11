@@ -1,11 +1,21 @@
 {
   "name": "students",
   "version": "1.0.0",
-  "description": "",
+  "description": "'一月十一日尝试使用github'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "paradian",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "express"
+  ],
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-art-template": "^1.0.0",
+    "mongoose": "^4.13.9"
+  }
 }

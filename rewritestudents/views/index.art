@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>姓名</th>
+        <th>联系方式</th>
+        <th>邮箱</th>
+        <th>年龄</th>
+    </tr>
+    {{each users user}}
+    <tr onclick="deleteUser({{user._id}},event)">
+        <td>{{user.name}}</td>
+        <td>{{user.phone}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.age}}</td>
+    </tr>
+    {{/each}}
+</table>

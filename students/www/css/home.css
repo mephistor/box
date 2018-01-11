@@ -1,0 +1,14 @@
+#gray{
+    margin-top: 50px;
+    background-color: lightgoldenrodyellow;
+}
+th,td{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
